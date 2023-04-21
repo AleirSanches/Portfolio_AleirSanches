@@ -49,7 +49,11 @@ nav > a{
     transition-duration: 0.5s;/*da dinamica no acesso aos links*/
     
 }
-a:hover{
+iframe{
+    display: inline;
+    padding: 10px;
+}
+Nav > a:hover{
     background-color: #4D4DFF;
 }
 
@@ -60,7 +64,22 @@ body > h2{
     padding: 10px;
     color:#4D4DFF;
 }
+ul{
+    padding: 10px;
+    display: inline;
+}
 
 p{
     padding: 10px;
+    text-align: justify;
+}
+
+body > a:hover{
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
